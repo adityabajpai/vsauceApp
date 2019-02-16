@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="fooddeliveryapp.totemsolutions.com.fooddeliveryapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="26" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <permission
+        android:name="fooddeliveryapp.totemsolutions.com.fooddeliveryapp.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="fooddeliveryapp.totemsolutions.com.fooddeliveryapp.permission.C2D_MESSAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@drawable/vsauce"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/vsauce"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="fooddeliveryapp.totemsolutions.com.fooddeliveryapp.SplashActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="fooddeliveryapp.totemsolutions.com.fooddeliveryapp.InteractionActivity"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name="fooddeliveryapp.totemsolutions.com.fooddeliveryapp.UserRegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="fooddeliveryapp.totemsolutions.com.fooddeliveryapp.AskScheduleActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="fooddeliveryapp.totemsolutions.com.fooddeliveryapp.BeveragesMenuListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="fooddeliveryapp.totemsolutions.com.fooddeliveryapp.verifyOTPActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="fooddeliveryapp.totemsolutions.com.fooddeliveryapp.ItemActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="fooddeliveryapp.totemsolutions.com.fooddeliveryapp.ProfileActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="fooddeliveryapp.totemsolutions.com.fooddeliveryapp.MakeProfileWhenEmailActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name="fooddeliveryapp.totemsolutions.com.fooddeliveryapp.DessertImageListActivity" />
+        <activity android:name="fooddeliveryapp.totemsolutions.com.fooddeliveryapp.MakeProfileWhenPhoneActivity" />
+        <activity android:name="fooddeliveryapp.totemsolutions.com.fooddeliveryapp.CheckoutActivity" />
+        <activity android:name="fooddeliveryapp.totemsolutions.com.fooddeliveryapp.MainCourseListActivity" />
+        <activity android:name="fooddeliveryapp.totemsolutions.com.fooddeliveryapp.ModeOfPayment" />
+        <activity android:name="fooddeliveryapp.totemsolutions.com.fooddeliveryapp.ThaliTypeActivity" />
+        <activity android:name="fooddeliveryapp.totemsolutions.com.fooddeliveryapp.SnackListActivity" />
+        <activity android:name="fooddeliveryapp.totemsolutions.com.fooddeliveryapp.Chinese" />
+        <activity android:name="fooddeliveryapp.totemsolutions.com.fooddeliveryapp.NorthIndian" />
+        <activity android:name="fooddeliveryapp.totemsolutions.com.fooddeliveryapp.EggDelite" />
+        <activity android:name="fooddeliveryapp.totemsolutions.com.fooddeliveryapp.TuteeCrush" />
+        <activity android:name="fooddeliveryapp.totemsolutions.com.fooddeliveryapp.SouthIndian" />
+        <activity android:name="fooddeliveryapp.totemsolutions.com.fooddeliveryapp.DeliveryDetailsActivity" />
+        <activity android:name="fooddeliveryapp.totemsolutions.com.fooddeliveryapp.FinalDeliveryDetails" />
+        <activity android:name="fooddeliveryapp.totemsolutions.com.fooddeliveryapp.SnackItemActivity" />
+        <activity android:name="fooddeliveryapp.totemsolutions.com.fooddeliveryapp.ApplyPromoCodeActivity" />
+
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="26.1.0" />
+
+        <activity
+            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!--
+Service handling Google Sign-In user revocation. For apps that do not integrate with
+            Google Sign-In, this service will never be started.
+        -->
+        <service
+            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+            android:exported="true"
+            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+            android:enabled="true"
+            android:exported="false" >
+        </receiver>
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.INSTALL_PACKAGES" >
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
+                <category android:name="fooddeliveryapp.totemsolutions.com.fooddeliveryapp" />
+            </intent-filter>
+        </receiver>
+        <!--
+ FirebaseInstanceIdService performs security checks at runtime,
+             no need for explicit permissions despite exported="true"
+        -->
+        <service
+            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+            android:exported="true" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="fooddeliveryapp.totemsolutions.com.fooddeliveryapp.firebaseinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="android.arch.lifecycle.VERSION"
+            android:value="27.0.0-SNAPSHOT" />
+    </application>
+
+</manifest>

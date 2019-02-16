@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="fooddeliveryapp.totemsolutions.com.fooddeliveryapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/vsauce"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/vsauce"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".InteractionActivity"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name=".UserRegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AskScheduleActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BeveragesMenuListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".verifyOTPActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ItemActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ProfileActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MakeProfileWhenEmailActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".DessertImageListActivity" />
+        <activity android:name=".MakeProfileWhenPhoneActivity" />
+        <activity android:name=".CheckoutActivity" />
+        <activity android:name=".MainCourseListActivity" />
+        <activity android:name=".ModeOfPayment" />
+        <activity android:name=".ThaliTypeActivity" />
+        <activity android:name=".SnackListActivity" />
+        <activity android:name=".Chinese" />
+        <activity android:name=".NorthIndian" />
+        <activity android:name=".EggDelite" />
+        <activity android:name=".TuteeCrush" />
+        <activity android:name=".SouthIndian" />
+        <activity android:name=".DeliveryDetailsActivity" />
+        <activity android:name=".FinalDeliveryDetails" />
+        <activity android:name=".SnackItemActivity" />
+        <activity android:name=".ApplyPromoCodeActivity"></activity>
+    </application>
+
+</manifest>

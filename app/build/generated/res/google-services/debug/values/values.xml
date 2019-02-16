@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">446134424204-6uiacdj8j0e2plv7bi94t8ico0pfisqm.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://totem-solutions-app.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">446134424204</string>
+    <string name="google_api_key" translatable="false">AIzaSyDh9Kt4z1x-qFez8iqMgxO28Zy_rEX3Nnc</string>
+    <string name="google_app_id" translatable="false">1:446134424204:android:0646e85836bda25e</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDh9Kt4z1x-qFez8iqMgxO28Zy_rEX3Nnc</string>
+    <string name="google_storage_bucket" translatable="false">totem-solutions-app.appspot.com</string>
+    <string name="project_id" translatable="false">totem-solutions-app</string>
+</resources>

@@ -1,0 +1,151 @@
+{
+  "project_info": {
+    "project_number": "446134424204",
+    "firebase_url": "https://totem-solutions-app.firebaseio.com",
+    "project_id": "totem-solutions-app",
+    "storage_bucket": "totem-solutions-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:446134424204:android:e7ce0111045e3eae",
+        "android_client_info": {
+          "package_name": "com.example.asus.upload_retrieve"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "446134424204-9jgpv14g5r53d7oqb5rcampa8t5tlsi5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.asus.upload_retrieve",
+            "certificate_hash": "716bf218dd0ae05ead62433990c7bc5c34cc29b2"
+          }
+        },
+        {
+          "client_id": "446134424204-6uiacdj8j0e2plv7bi94t8ico0pfisqm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDh9Kt4z1x-qFez8iqMgxO28Zy_rEX3Nnc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "446134424204-6uiacdj8j0e2plv7bi94t8ico0pfisqm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:446134424204:android:96431dddd5c97d00",
+        "android_client_info": {
+          "package_name": "com.example.asus.vadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "446134424204-9q7b17l3bghqsrs8le2cqimbn934adte.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.asus.vadmin",
+            "certificate_hash": "716bf218dd0ae05ead62433990c7bc5c34cc29b2"
+          }
+        },
+        {
+          "client_id": "446134424204-6uiacdj8j0e2plv7bi94t8ico0pfisqm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDh9Kt4z1x-qFez8iqMgxO28Zy_rEX3Nnc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "446134424204-6uiacdj8j0e2plv7bi94t8ico0pfisqm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:446134424204:android:0646e85836bda25e",
+        "android_client_info": {
+          "package_name": "fooddeliveryapp.totemsolutions.com.fooddeliveryapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "446134424204-bidhupbnl4kuvhb9reh1m8p4dhr1nh23.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "fooddeliveryapp.totemsolutions.com.fooddeliveryapp",
+            "certificate_hash": "fb337c776bfb731d5cc872c9f6e4caf07fe0a44d"
+          }
+        },
+        {
+          "client_id": "446134424204-831ns6jqjod9crvdbmjl7u5h8fsbmuce.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "fooddeliveryapp.totemsolutions.com.fooddeliveryapp",
+            "certificate_hash": "716bf218dd0ae05ead62433990c7bc5c34cc29b2"
+          }
+        },
+        {
+          "client_id": "446134424204-6uiacdj8j0e2plv7bi94t8ico0pfisqm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDh9Kt4z1x-qFez8iqMgxO28Zy_rEX3Nnc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "446134424204-6uiacdj8j0e2plv7bi94t8ico0pfisqm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
